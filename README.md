@@ -33,6 +33,11 @@ This is the third party implementation of the paper **[Grounding DINO: Marrying 
 
 We conduct our model testing using the following versions: Python 3.7.11, PyTorch 1.11.0, and CUDA 11.3. It is possible that other versions are also available.
 
+0. Export CUDA_HOME
+```
+export CUDA_HOME=/path/to/cuda
+```
+
 1. Clone this repository.
 
 ```bash
